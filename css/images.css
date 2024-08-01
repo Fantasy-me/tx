@@ -1,0 +1,88 @@
+body{
+	background-color: pink;
+	background-image: url(https://habrastorage.org/getpro/habr/post_images/527/390/f1c/527390f1c2524dd66360249baec50047.gif);
+background-size: 200px;
+background-repeat: no-repeat;
+background-position: 100% 100%;
+background-attachment: fixed;
+}
+
+p                         {
+	font-size: 0.9in;
+	background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg);
+background-size: cover;
+}
+#first{
+	width: 500px;
+	height: 500px;
+	background-image: url(https://img.freepik.com/free-vector/realistic-neon-lights-background_23-2148907367.jpg?size=626&ext=jpg&ga=GA1.1.2113030492.1719532800&semt=ais_usersss);
+background-size: cover;
+border: 30px groove orange;
+}
+#second{
+	width: 400px;
+	height: 400px;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5uxxPvYY8Rv59YsdLzGBveIy37gPrieboPw&s);
+	background-size: cover;
+	margin: 50px;
+	border: 30px solid;
+	border-image: linear-gradient(orchid, aqua, lime) 30;
+}
+#third{
+	width: 400px;
+	height: 400px;
+	border: 20px ridge;
+	border-image: linear-gradient(red, yellow, black) 30;
+	background-image: url(https://i.gifer.com/W31X.gif);
+}
+#forth{
+	width: 50%;
+	margin: auto;
+	display: block;
+	border-radius: 50%;
+	box-shadow: 10px -10px 50px darkblue;
+}
+#mypaint{
+width: 50%;
+	margin: auto;
+	display: block;
+	border-radius: 50%;
+	box-shadow: 0px 0px 50px darkblue;
+}
+#fifth{
+	width: 400px;
+	height: 400px;
+	background-image: linear-gradient(rgba(255, 255, 0, 1.0), rgba(0, 0, 255, 0.5)), url(https://static.vecteezy.com/system/resources/thumbnails/001/849/553/small_2x/modern-gold-background-free-vector.jpg);
+background-size: cover;
+}
+#six{
+	width: 600px;
+	height: 400px;
+	margin: 60px;
+	box-shadow: 0px 0px 100px purple;
+	border-radius: 50%;
+	background-image: url(https://www.shutterstock.com/image-vector/modern-world-map-vector-isolated-260nw-2476579731.jpg);
+background-size: cover;
+}
+#seven{
+	width: 400px;
+	height: 400px;
+	margin: 60px;
+	border: 30px solid;
+	border-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg) 30;
+	background-image: url(https://i.pinimg.com/564x/6a/aa/ab/6aaaab354709ef2fa16fbd72299c8f55.jpg);
+background-size: cover;
+}
+#eight{
+	width: 400px;
+	height: 400px;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq7avBpWQil1KTKyugnG5T0Qmwyie-Z-sFPw&usqp=CAU);
+background-size: cover;
+}
+#nine{
+	width: 400px;
+	height: 400px;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxD0f0Whnol8Zkt_GU4ws9EgRqMc_3kt1q6w&usqp=CAU);
+background-size: cover;
+}
+

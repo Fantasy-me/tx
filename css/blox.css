@@ -1,0 +1,78 @@
+body{
+	background-color: lavenderblush;
+}
+p{
+	background-color: lavender;
+	font-size: 50px;
+	color: purple;
+	display: block;
+}
+span{
+	border: dashed 5px green;
+	display: block;
+}
+ul{
+	background-color: lime;
+	width: 50%;
+}
+li{
+	background-color: red;
+	font-size: 24px;
+	width: 100px;
+	border: dashed 5px orange;
+	margin: 10px;
+	padding: 10px 5px;
+	text-align: center;
+}
+ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+li:hover{
+	background-image: url(https://i.pinimg.com/originals/1c/c1/f4/1cc1f4cf8384054c94a5fe0b19cfb61e.gif);
+	border: dashed 5px magenta;
+	color: whitesmoke;
+	font-family: Arial Black;
+	font-size: 20px;
+}
+div{
+	border-width: 30px;
+}
+#first{
+	background-color: lime;
+	width: 500px;
+	height: 500px;
+	color: red;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-width: 30px;
+	border-style: double dotted dashed solid;
+	border-color: orange royalblue magenta red;
+}
+#second{
+	width: 700px;
+	height: 800px;
+	background-color: aqua;
+	margin: 50px;
+	padding: 50px;
+	border-style: double;
+	border-color: red royalblue;
+}
+#third, #fourth{
+	padding: 50px;
+	width: 900px;
+	height: 200px;
+	background-color: hotpink;
+	margin: 50px;
+	border-style: dotted;
+
+	border-color: orange;
+}
+#fourth{
+	background-color: lime;
+	border-style: double dotted ridge dashed ;
+	border-color: red;
+}

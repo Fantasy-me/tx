@@ -1,0 +1,59 @@
+body{
+	background-color: lightyellow;
+}
+h1{
+	font-weight: 400px;
+	font-family: 'Linux Libertine', 'Georgia', 'Times', 'Source Serif Pro', serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    color: red;
+}
+h2{
+   color: red;
+}
+h3{
+	color: red;
+}
+h4{
+	color: red;
+}
+p{
+	word-spacing: 5px;
+	text-align: justify;
+	line-height: 24px;
+	font-family: sans-serif;
+	text-indent: 24px;
+}
+ul li{
+	list-style-type: none;
+	font-family: sans-serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:visited{
+	color: red;
+}
+a:active{
+	color: fuchsia;
+	background-color: lightgrey;
+}
+.fr{
+	float: right;
+}
+figure{
+	border: solid 1px lightgrey;
+	padding: 10px;
+}
+figcaption{
+	padding: 5px;
+	font-family: sans-serif;
+}
+#u{
+   background-color: lightgrey;
+   border: double 10px red;
+}

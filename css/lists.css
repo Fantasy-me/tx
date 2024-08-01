@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+Display&family=Diplomata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almendra+Display&family=Diplomata&display=swap');
+body{
+	background-color: aqua;
+	background-image: url(https://i.gifer.com/origin/ca/cab888fee28ca4db0b9c04c2c6cd98ac.gif);
+background-size: 200px;
+background-repeat: no-repeat;
+background-position: 100% 100%;
+background-attachment: fixed;
+}
+p{
+	background-color: red;
+	color: yellow;
+	font-size: 0.8in;
+}
+.p1{
+	background-color: yellow;
+	color: darkmagenta;
+	text-shadow: 0 0 30px red;
+	text-decoration: underline;
+	text-decoration-color: red;
+	font-family: "Diplomata", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+}
+ul,ol{
+	font-size: 24px;
+	color: red;
+}
+.l1 li{
+	padding-left: 10px;
+}
+.l2 li::marker{
+	color: red;
+}
+ol{
+	margin-left: 50px;
+}
+@counter-style emoji {
+  system: fixed;
+  symbols: 😀 👻 👽 👾 🤖 🎃 😹 👋 👀 💋 🐕;
+  suffix: " ";
+}
+.l3{
+	list-style: emoji;
+}
+@counter-style lower-ukrainian {
+system: alphabetic;
+symbols: '\430' '\431' '\432' '\433' '\434' '\435' '\454' '\436' '\437' '\438' '\456' '\43A' '\43B' '\43C' '\43D' '\43E' '\43F' '\440' '\441' '\442' '\443' '\444' '\445' '\446' '\447' '\448' '\44E' '\44F';
+/* symbols: 'а' 'б' 'в' 'г' 'д' 'е' 'є' 'ж' 'з' 'и' 'і' 'к' 'л' 'м' 'н' 'о' 'п' 'р' 'с' 'т' 'у' 'ф' 'х' 'ц' 'ч' 'ш' 'ю' 'я'; */
+suffix: ') ';
+}
+.l4{
+	list-style: lower-ukrainian;
+}
+.l5{
+	list-style: mongolian;
+}
+.p2{
+	background-color: red;
+	color: yellow;
+	font-family: Ariel;
+	font-size: 20px;
+}
+@counter-style my-count{
+system: fixed;
+symbols: 🍓 🍌 🍍 🍉 🥭 🍒 🍑 🍎 🍏 🥑 🍇 🍊;
+suffix: " ";
+}
+.l6{
+	list-style: my-count;
+}

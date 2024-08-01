@@ -1,0 +1,106 @@
+body{
+	background-color: aqua;
+	background-image: url(https://media.tenor.com/8DLoAsFXiPcAAAAj/corey-coreytonge.gif);
+background-size: 200px;
+background-repeat: no-repeat;
+background-position: 100% 100%;
+background-attachment: fixed;
+}
+p{
+	font-size: 50px;
+}
+.p1{
+	color: red;
+	background-color: black;
+}
+.p2{
+	color: darkred;
+	background-color: sandybrown;
+	font-family: sans-serif;
+}
+.p3{
+	color: darkred;
+	background-color: sandybrown;
+	font-family: cursive;
+}
+.p4{
+	color: darkred;
+	font-family: monospace;
+	font-style: italic;
+	text-decoration: underline;
+	text-underline-position: under;
+	text-decoration-color: blue;
+	text-decoration-style: wavy;
+	text-emphasis: filled double-circle #ffb703;
+}
+.p5{
+	color: darkred;
+	background-color: sandybrown;
+	font-family: fantasy;
+}
+.p6{
+	color: darkred;
+	background-color: sandybrown;
+	font-family: Times, "Times New Roman", Georgia, serif;
+}
+.p7{
+	color: darkred;
+	background-color: sandybrown;
+	font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p8{
+font-family: "Rubik Beastly", system-ui;
+text-shadow: 0 0 25px darkorange;
+color: darkmagenta;
+text-transform: uppercase;
+}
+.p9{
+	font-family: "Kablammo", system-ui;
+}
+.p10{
+	font-family: "Great Vibes", cursive;
+	font-weight: bold;
+}
+.p11{
+	font-family: "Pacifico", cursive;
+}
+.s1{
+	font-size: 2em;
+	color: darkorange;
+	text-shadow: 0 0 30px black;
+	font-family: "Rubik Beastly", system-ui;
+}
+.p12{
+	text-shadow:
+    1px 1px 2px black,
+    0 0 1em blue,
+    0 0 0.2em blue;
+  color: white;
+}
+.s2{
+	font-size: 2em;
+	color: red;
+	font-family: arial black;
+	text-shadow: 10px -20px 20px darkblue;
+}
+.p13{
+	font-family: Agency FB;
+	font-weight: bold;
+	text-shadow: 0px -10px 10px red;
+	color: whire;
+}
+.p14{
+    font-family: Arial;
+    font-weight: bold;
+    color: darkred;
+}
+.p15{
+  font-family: sans-serif;
+  font-size: bold;
+  color: darkred;  
+}
+.p16{
+font-family: sans-serif;
+font-size: bold;
+color: darkmagenta;
+}
